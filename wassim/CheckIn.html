@@ -1,0 +1,62 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+<script 
+src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCTL9_3fZPqKcnkXu1Hueu-i8SNgbf8GbA&sensor=false">
+</script>
+
+<script>
+    var myCenter = new google.maps.LatLng(32.705849020430485, 35.30951410531998);
+    var map;
+    var marker;
+    var geocoder;
+
+    function initialize() {
+        var mapProp = {
+            center: myCenter,
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        map = new google.maps.Map(document.getElementById("googleMap2"), mapProp);
+
+        marker = new google.maps.Marker({
+            position: myCenter,
+            title: 'You are here'
+        });
+
+        marker.setMap(map);
+
+        geocoder = new google.maps.Geocoder();
+
+        geocoder.geocode({ 'latLng': myCenter }, function (results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+                if (results[1]) {
+                    document.getElementById('checkin').value = results[1].formatted_address;
+                    document.getElementById("latlng").value = myCenter;
+                }
+            }
+        });
+        google.maps.event.addListener(map, 'click', function (event) {
+            marker.setPosition(event.latLng);
+            document.getElementById("latlng").value = event.latLng;
+            var latlng = event.latLng;
+            geocoder.geocode({ 'latLng': latlng }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    if (results[1]) {
+                        document.getElementById('checkin').value = results[1].formatted_address;
+                    }
+                }
+            });
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<h1>You are here:</h1><input type="text" name="checkin" id="checkin" style='width:250px;'><br /><br><input type="hidden" name="latlng" id="latlng" /><br />
+<div id="googleMap2" style="width:600px;height:450px;"></div>
+<br>
+<input type="button" onclick="window.location.href='wassim.html'" class="button1" value='home'>
+</body>
+</html>
