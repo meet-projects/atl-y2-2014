@@ -1,5 +1,6 @@
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="our_css.css">
 	<link rel="stylesheet" type="text/css" href="wassim_css.css">
 
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -48,8 +49,9 @@
           			<ul class="nav navbar-nav">
             				<li><a href="#about">About Us</a></li>
             				<li><a href="Matthew.html">Become a Leader</a></li>
-            				<li><a href="wassim.html">Ask the Leader</a></li>	
-          			</ul>
+       					<li><a href="wassim.html">The Leaders</a></li>
+	    				<li><a href="ask.html">Ask the Leaders</a></li>          			
+				</ul>
         		</div><!--/.nav-collapse -->
       		</div>
     	   </div>
