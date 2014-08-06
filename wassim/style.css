@@ -1,3 +1,10 @@
+h1 {
+  font: 400 70px/1.2 'Sansita one', Georgia, serif;
+}
+ 
+p {
+  font: 400 17px/1.6 'Kameron', Georgia, serif;
+}
 .tran
 {
 	transition: width 1s, height 1s;
@@ -17,9 +24,25 @@
     border:1px solid #15BF0F;
 }
 
-.circular {
+.circular1 {
 
-	background: url('images/Dog.jpeg') no-repeat;
+	background: url('images/hulk.jpeg') no-repeat;
+	background-size: 300px 300px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+}
+.circular2 {
+
+	background: url('images/ironman.jpeg') no-repeat;
+	background-size: 300px 300px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+}
+.circular3 {
+
+	background: url('images/captin.jpeg') no-repeat;
 	background-size: 300px 300px;
 	width: 300px;
 	height: 300px;
@@ -32,20 +55,20 @@
 	position:absolute;
 	z-index:3;
 }
-#dog1
+#hulk
 {
 	position: relative;
 	top: 150px;
 	left: 50px
 }
 
-#dog2
+#ironman
 {
 	position: relative;
 	top: 10px;
 	left: 320px
 }
-#dog3{
+#captin{
 	position: relative;
 	top: 7px;
 	left: 500px
@@ -54,4 +77,9 @@
 	position: relative;
 	top:1px;
 	left:430px;
+}
+#word3{
+	position: relative;
+	top:1px;
+	left:600px;
 }
