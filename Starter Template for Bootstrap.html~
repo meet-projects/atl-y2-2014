@@ -47,7 +47,7 @@
           <ul class="nav navbar-nav">
             <li><a href="#about">About Us</a></li>
             <li><a href="Matthew.html">Become a Leader</a></li>
-            <li><a href="">Ask the Leader</a></li>	
+            <li><a href="wassim.html">Ask the Leader</a></li>	
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -57,7 +57,7 @@
 
       <div class="starter-template">
         <h1>Welcome to ATL!</h1>
-        <p class="lead">In our website you can ask our 4 amazing leaders that came from the Avengers anything you would like, learn more about us and see how YOU can become a leader</p>
+        <p class="lead">In our website you can ask our 3 amazing leaders that came from the Avengers anything you would like, learn more about us and see how YOU can become a leader</p>
       </div>
     <br />
     <img src = "images/avengers.jpg" />;
