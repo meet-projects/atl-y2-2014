@@ -1,9 +1,6 @@
 <!doctype html>
 <html>
 	<head>
-
-	<link rel="stylesheet" type="text/css" href="wassim_css.css">
-
 		<link rel="stylesheet" type="text/css" href="our_css.css">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     		<meta charset="utf-8">
@@ -34,10 +31,9 @@
       		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     		<![endif]-->	
 
-	
+	<h1>Become a leader</h1>
 	</head>
 	<body style ="background-color:white;">
-	<h1>Become a leader</h1>
 
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       		<div class="container">
@@ -62,11 +58,11 @@
     	</div>
 
 	<p style ="font-size:120%">
-	<font size="5" family="elephant"><i><b>
-	Great leaders understand that the only way for a team or company to reach its full potential is to bring out the best in all of the people who work in the organization. When they are able to help others be their best, things that all companies seek such as increased profits, passion, engagement, creativity, and innovation naturally emerge.</b></i></font></p>
+
+	Great leaders understand that the only way for a team or company to reach its full potential is to bring out the best in all of the people who work in the organization. When they are able to help others be their best, things that all companies seek such as increased profits, passion, engagement, creativity, and innovation naturally emerge.</p>
 	<ul>
 	<li style= "font-size:110%; font-style:Bold; "><u> Have the courage to look at themselves honestly.</u></li>
-	<img src = "images/man-looking-in-mirror.jpg "id="man" class="tran">
+	<img src = "images/man-looking-in-mirror.jpg " width = "300" height="300">
 	<li style= "font-size:110%"><u>Deal with the "messy stuff" others avoid.</u></li>
 	<img src = "images/mess.jpg " width = "300" height="300">
 	<li style= "font-size:110%"><u>Build trust.</u></li>
