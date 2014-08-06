@@ -1,3 +1,10 @@
+h1 {
+  font: 400 70px/1.2 'Sansita one', Georgia, serif;
+}
+ 
+p {
+  font: 400 17px/1.6 'Kameron', Georgia, serif;
+}
 .tran
 {
 	transition: width 1s, height 1s;
@@ -25,12 +32,6 @@
 	height: 300px;
 	border-radius: 150px;
 }
-.circular1:hover
-{
-	
-	border-radius: 1px;
-
-}
 .circular2 {
 
 	background: url('images/ironman.jpeg') no-repeat;
@@ -38,11 +39,6 @@
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
-}
-.circular2:hover
-{
-	
-	border-radius: 1px;
 }
 .circular3 {
 
@@ -52,21 +48,17 @@
 	height: 300px;
 	border-radius: 150px;
 }
-.circular3:hover
-{
-	border-radius: 1px;
-}
 .cir
 {
-	height:10px;
-	width:10px;
+	height:50px;
+	width:50px;
 	position:absolute;
 	z-index:3;
 }
 #hulk
 {
 	position: relative;
-	top: 10px;
+	top: 150px;
 	left: 50px
 }
 
@@ -78,28 +70,16 @@
 }
 #captin{
 	position: relative;
-	top: 5px;
+	top: 7px;
 	left: 500px
-}
-#word
-{
-	position: relative;
-	top:1px;
-	left:800px;
-
 }
 #word2{
 	position: relative;
 	top:1px;
-	left:800px;
+	left:430px;
 }
 #word3{
 	position: relative;
 	top:1px;
-	left:800px;
+	left:600px;
 }
-
-.transition { 
-	transition: height .5s ease-out, width .5s ease-out; 
-}
-

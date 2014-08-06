@@ -6,53 +6,61 @@
 	<script type="text/javascript" >
 	function toggle()
 	{
-		if (document.getElementById('word').style.width=='50px')
+		if (document.getElementById('word').style.width=='10px')
 		{	
 			document.getElementById('word').style.width='400px'
 			document.getElementById('word').style.height='400px'
 		}
 		else 
-		{	document.getElementById('word').style.width='50px'
-			document.getElementById('word').style.height='50px'
+		{	document.getElementById('word').style.width='10px'
+			document.getElementById('word').style.height='10px'
 		}
 
 	}
 	function toggle2()
 	{
-		if (document.getElementById('word2').style.width=='50px')
+		if (document.getElementById('word2').style.width=='10px')
 		{	
 			document.getElementById('word2').style.width='400px'
 			document.getElementById('word2').style.height='400px'
 		}
 		else 
-		{	document.getElementById('word2').style.width='50px'
-			document.getElementById('word2').style.height='50px'
+		{	document.getElementById('word2').style.width='10px'
+			document.getElementById('word2').style.height='10px'
 		}
 
+	}
+	function toggle3()
+	{
+		if (document.getElementById('word3').style.width=='10px')
+		{	
+			document.getElementById('word3').style.width='400px'
+			document.getElementById('word3').style.height='400px'
+		}
+		else 
+		{	document.getElementById('word3').style.width='10px'
+			document.getElementById('word3').style.height='10px'
+		}
 	}
 	</script>
 	<div>
 	<form>
 	<center><h1>MEET</h1></center>	
-	<input type="button" class="button1" value="Check In" onclick="window.location.href='CheckIn.html'">
-	<br><br>
-	<div class="circular" onclick="toggle()" id="dog1" >
+	<!--<input type="button" class="button1" value="Check In" onclick="window.location.href='CheckIn.html'">!-->
+	<div class="circular1 bubble transition" onclick="toggle()" id="hulk" >
 	</div>
-	<img src="images/word.jpeg" id='word' class='tran cir' >
+	<img src="images/word.jpeg" id='word' onclick="toggle()" class='tran cir' >
 	
-	<div class="circular" id="dog2" onclick="toggle2()"  >
+	<div class="circular2" id="ironman" onclick="toggle2()"  >
 	</div>
 	<img src="images/word2.jpeg" id="word2" class='tran cir' onclick="toggle2()" >
 
-	<div class="circular"   id="dog3" onclick="toggle3()">
+	<div class="circular3"   id="captin" onclick="toggle3()">
 	</div>
-	<img src="images/word.jpeg" id='word3' class='tran cir' >
+	<img src="images/word.jpeg" id='word3' onclick="toggle3()" class='tran cir' >
 	
 	<br><br>
 	<!--<marquee behavior="slide" width="1000"  loop="infinite"><br><img src="Smiley.jpeg" width="300" height="300" ></marquee>!-->
-	<div align="center">
-	<img src="images/spider.jpeg" style="width:150px;height:150px">
-	</div>
 	</form>
 	</div>
 	</body>
