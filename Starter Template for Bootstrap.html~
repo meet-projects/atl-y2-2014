@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<link rel="stylesheet" type="text/css" href="our_css.css">
+<link rel="stylesheet" type="text/css" href="wassim_css.css">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -59,7 +59,7 @@
 
       <div class="starter-template">
         <h1>Welcome to ATL!</h1>
-        <p class="lead">In our website you can ask our 3 amazing leaders that came from the Avengers anything you would like, learn more about us and see how YOU can become a leader</p>
+        <p class="lead"><i><b>In our website you can ask our 3 amazing leaders that came from the Avengers anything you would like, learn more about us and see how YOU can become a leader</b></i></p>
       </div>
     <br />
     <img src = "images/avengers.jpg" />;

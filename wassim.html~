@@ -2,7 +2,6 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="our_css.css">
 	<link rel="stylesheet" type="text/css" href="wassim_css.css">
-
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     		<meta charset="utf-8">
     		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,7 +31,7 @@
       		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     		<![endif]-->
 </head>
-	<body bgcolor="Blue">
+	<body>
 
 	    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       		<div class="container">
@@ -59,61 +58,73 @@
 	<script type="text/javascript" >
 	function toggle()
 	{
-		if (document.getElementById('word').style.width=='50px')
+		if (document.getElementById('word').style.width=='10px')
 		{	
 			document.getElementById('word').style.width='400px'
 			document.getElementById('word').style.height='400px'
 		}
 		else 
-		{	document.getElementById('word').style.width='50px'
-			document.getElementById('word').style.height='50px'
+		{	document.getElementById('word').style.width='10px'
+			document.getElementById('word').style.height='10px'
 		}
 
 	}
 	function toggle2()
 	{
-		if (document.getElementById('word2').style.width=='50px')
+		if (document.getElementById('word2').style.width=='10px')
 		{	
 			document.getElementById('word2').style.width='400px'
 			document.getElementById('word2').style.height='400px'
 		}
 		else 
-		{	document.getElementById('word2').style.width='50px'
-			document.getElementById('word2').style.height='50px'
+		{	document.getElementById('word2').style.width='10px'
+			document.getElementById('word2').style.height='10px'
 		}
 
 	}
 	function toggle3()
 	{
-		if (document.getElementById('word3').style.width=='50px')
+		if (document.getElementById('word3').style.width=='10px')
 		{	
 			document.getElementById('word3').style.width='400px'
 			document.getElementById('word3').style.height='400px'
 		}
 		else 
-		{	document.getElementById('word3').style.width='50px'
-			document.getElementById('word3').style.height='50px'
+		{	document.getElementById('word3').style.width='10px'
+			document.getElementById('word3').style.height='10px'
 		}
 	}
 	</script>
 	<div>
 	<form>
+	<center><h1 style="font-family:elephant;font-size:px;">Ask The Leader</h1></center>	
 	<!--<input type="button" class="button1" value="Check In" onclick="window.location.href='CheckIn.html'">!-->
-
-	<div class="circular1" onclick="toggle()" id="hulk" >
+	<div class="circular1 bubble transition" onclick="toggle()" id="hulk" >
+	<div id="hulk2">
+	HULK
 	</div>
-	<img src="images/word.jpeg" id='word' onclick="toggle()" class='tran cir' >
+	</div>
+	
+
+	<img src="images/word.jpg" id='word' onclick="toggle()" class='tran cir' >
 	
 	<div class="circular2" id="ironman" onclick="toggle2()"  >
+	<div id="ironman2">
+	Iron Man
 	</div>
-	<img src="images/word2.jpeg" id="word2" class='tran cir' onclick="toggle2()" >
+	</div>
+
+	<img src="images/word2.jpg" id="word2" class='tran cir' onclick="toggle2()" >
 
 	<div class="circular3"   id="captin" onclick="toggle3()">
+	<div id="captin2">
+	Captin America
 	</div>
-	<img src="images/word.jpeg" id='word3' onclick="toggle3()" class='tran cir' >
+	</div>
+	<img src="images/word3.jpg" id='word3' onclick="toggle3()" class='tran cir' >
 	
 	<br><br>
-	<!--<marquee behavior="slide" width="1000"  loop="infinite"><br><img src="images/Smiley.jpeg" width="300" height="300" ></marquee>!-->
+	<!--<marquee behavior="slide" width="1000"  loop="infinite"><br><img src="Smiley.jpeg" width="300" height="300" ></marquee>!-->
 	</form>
 	</div>
 	</body>

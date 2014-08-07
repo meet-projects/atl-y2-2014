@@ -1,3 +1,7 @@
+body
+{
+background-image:url('images/backgr.jpeg');
+}
 .tran
 {
 	transition: width 1s, height 1s;
@@ -101,5 +105,64 @@
 
 .transition { 
 	transition: height .5s ease-out, width .5s ease-out; 
+}
+#man
+{
+	width:300px;
+	height:300px;
+}
+#man:hover
+{
+	width:500px;
+	height:500px;
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: sans-serif;
+	color:black;
+}
+#pic2
+{
+height:450px;
+width:450px;
+-webkit-transition-duration: 0.8s;
+-moz-transition-duration: 0.8s;
+-o-transition-duration: 0.8s;
+transition-duration: 0.8s;
+
+-webkit-transition-property: -webkit-transform;
+-moz-transition-property: -moz-transform;
+-o-transition-property: -o-transform;
+transition-property: transform;
+-o-transition-property;
+overflow:hidden;
+}
+#pic2:hover
+{
+-webkit-transform:rotate(360deg);
+-moz-transform:rotate(360deg);
+-o-transform:rotate(360deg);
+}
+#hulk2
+{
+font-size:100px;
+color:white;
+position:relative;
+top:50px;
+left:500px;
+}
+#ironman2
+{font-size:100px;
+color:white;
+position:relative;
+top:50px;
+left:600px;
+}
+#captin2{
+font-size:90px;
+color:white;
+position:relative;
+top:60px;
+left:500px;
 }
 
