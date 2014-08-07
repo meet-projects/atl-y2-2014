@@ -1,6 +1,8 @@
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="our_css.css">
     <link rel="stylesheet" type="text/css" href="wassim_ css.css">
+    <link rel="stylesheet"  href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +11,7 @@
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>ATL</title>
 
     <!-- Bootstrap core CSS -->
     <link href="Starter%20Template%20for%20Bootstrap_files/bootstrap.css" rel="stylesheet">
@@ -58,16 +60,16 @@
 <form action="wassim.html" method="POST">
 <table>
     <tr>
-    <td>Name:</td>
-    <td><input type="text" name="n" placeholder="example:David Guetta" pattern=".{3,}" required title="3 characters minimum" ></td>
+    <td><b>Name:</b></td>
+    <td><input type="text" name="n" placeholder="example: David Guetta" pattern=".{3,}" required title="3 characters minimum" ></td>
     </tr>
     <tr>
-        <td>Question:</td>
-        <td><textarea name="question" placeholder="wirte your question..." rows="10" cols="60"></textarea></td>
+        <td><b>Question:</b></td>
+        <td><textarea name="question" placeholder="write your question..." rows="10" cols="60"></textarea></td>
     </tr>
     <tr>
     <td></td>
-    <td><input type="submit" value="Send"></td>
+    <td><input type="submit" value="Send" class="btn btn-primary"></td>
     </tr>
 </table>
 </form>
